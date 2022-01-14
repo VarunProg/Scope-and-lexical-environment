@@ -27,7 +27,7 @@ output: gives ReferenceError **Uncaught ReferenceError: a is not defined**\
 **Block Scope:** Variables declared within the block {...} can not be accessed outside of it.
 
 # scope in JS is dependent on Lexical environment
-**Lexical environment:** Everytime JS engine creates an execution context to execute functions or global code, it also creates a new lexical environment to store the variable defined in that function during the execution of that function.\
+**Lexical environment:** Everytime JS engine creates an execution context to execute functions or global code, it also creates a new lexical environment to store the variable defined in that function during the execution of that function.
 
 
 whenever execution context is created also local memory is created so when execution context is created when function is invoked(call) at that time execution context is created.\
