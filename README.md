@@ -22,9 +22,8 @@ function demo() {\
 let a = 20;\  
 }\
 console.log(a);\
-output: gives ReferenceError **Uncaught ReferenceError: a is not defined**
-so let's understand scope.\
-Scope in JaVascript directly related to lexical environment.
+output: gives ReferenceError **Uncaught ReferenceError: a is not defined**\
+
 **Block Scope:** Variables declared within the block {...} can not be accessed outside of it.
 
 # scope in JS is dependent on Lexical environment
