@@ -15,8 +15,8 @@ function demo() {\
 }\
 demo();\
 output:20\
-**Local scope:** functions declaration have local scope the variable declared inside the function are only accessible within the function, we can not access them outside of the function.
-Example:\
+**Local scope:** functions declaration have local scope the variable declared inside the function are only accessible within the function, we can not access them outside of the function.\
+Example:
 
 function demo() {\
 let a = 20;\  
@@ -26,5 +26,9 @@ output: gives ReferenceError **Uncaught ReferenceError: a is not defined**
 so let's understand scope.\
 Scope in JaVascript directly related to lexical environment.
 **Block Scope:** Variables declared within the block {...} can not be accessed outside of it.
+
+# scope in JS is dependent on Lexical environment\
+**Lexical environment:** Everytime JS engine creates an execution context to execute functions or global code, it also creates a new lexical environment to store the variable defined in that function during the execution of that function. Execution context is created when function is invoked(call), it has again 2 phases memory creation phase + code execution phase. In memory creation phase memory is assigned to variables and functions in the case of variable memory is allocated undefinde and in the case of function memory is allocated to the copy of function code, In code execution phase value is assigned to the variables and functions.\
+
 
 
