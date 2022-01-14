@@ -1,5 +1,5 @@
 # Scope-and-lexical-environment
-# what is scope in JavaScript\
+# what is scope in JavaScript
 Scope is the accessibility of variables,functions and objects in some particular part of code during run time means we can say that where we can access
 our variables and functions in code.\
 **types of scope**\
