@@ -29,7 +29,7 @@ output: gives ReferenceError **Uncaught ReferenceError: a is not defined**\
 # scope in JS is dependent on Lexical environment
 **Lexical environment:** Everytime JS engine creates an execution context to execute functions or global code, it also creates a new lexical environment to store the variable defined in that function during the execution of that function.\
 \
-there are 2 types of execution context\
+there are 2 types of execution context
 1. Global Execution Context- is created when JS program is run.
 2. Local Execution Context- is created when function is invoked(call)
 
