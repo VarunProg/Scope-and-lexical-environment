@@ -31,7 +31,10 @@ output: gives ReferenceError **Uncaught ReferenceError: a is not defined**\
 \
 there are 2 types of execution context
 1. Global Execution Context- is created when JS program is run.
-2. Local Execution Context- is created when function is invoked(call)
+2. Local Execution Context- is created when function is invoked(call)\
+
+why we need to understand execution context?\
+because everything happens in JS inside the execution context. This execution context is created and pushed into callstack.
 
 
 whenever local execution context is created also local memory is created, local execution context is created when function is invoked(call).\
